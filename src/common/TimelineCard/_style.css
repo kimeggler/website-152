@@ -1,19 +1,29 @@
 .TimelineCard {
-  width: 480px;
+  width: 580px;
   background-color: rgb(28, 28, 28);
   border-radius: 5px;
   display: flex;
   flex-direction: column;
 }
+
+.card-title {
+  margin: 40px;
+}
+
 .right-arrow {
   width: 20px;
   height: auto;
   align-self: flex-start;
   transform: translateX(-20px);
 }
+
 .left-arrow {
   width: 20px;
   height: auto;
   align-self: flex-end;
   transform: translateX(20px);
+}
+
+.personal-review {
+  margin: 0 40px;
 }
