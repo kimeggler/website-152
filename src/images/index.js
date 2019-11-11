@@ -1,0 +1,1 @@
+export { default as infinity_war_placeholder } from './infinity_war.jpg';
