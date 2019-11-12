@@ -1,0 +1,10 @@
+export { default as document_script } from './document_script.pdf';
+export { default as selim_orakci_copyright } from './selim_orakci_copyright.pdf';
+export { default as selim_orakci_datatypes } from './selim_orakci_datatypes.pdf';
+export { default as selim_orakci_plugins_and_scripts } from './selim_orakci_plugins_and_scripts.pdf';
+export { default as tobias_blaser_copyright } from './tobias_blaser_copyright.pdf';
+export { default as tobias_blaser_dataatypes } from './tobias_blaser_dataatypes.pdf';
+export { default as tobias_blaser_plugins_and_scripts } from './tobias_blaser_plugins_and_scripts.pdf';
+export { default as kim_eggler_copyright } from './kim_eggler_copyright.pdf';
+export { default as kim_eggler_datatypes } from './kim_eggler_datatypes.pdf';
+export { default as kim_eggler_plugins_and_scripts } from './kim_eggler_plugins_and_scripts.pdf';

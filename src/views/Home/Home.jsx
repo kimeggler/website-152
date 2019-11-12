@@ -8,6 +8,9 @@ function Home() {
   const [visibleVideo, toggleVisibilityVideo] = useState(
     false
   );
+  const [visibleStatement, toggleVisibilityStatement] = useState(
+    false
+  );
   const [visibleDocumentation, toggleVisibilityDocumentation] = useState(
     false
   );
@@ -17,6 +20,9 @@ function Home() {
   }
   let renderVideo = {
     visibility: visibleVideo ? 'visible' : 'hidden'
+  }
+  let renderStatement = {
+    visibility: visibleStatement ? 'visible' : 'hidden'
   }
   let renderDocumentation = {
     visibility: visibleDocumentation ? 'visible' : 'hidden'
@@ -35,6 +41,10 @@ function Home() {
         <a href="/video" className="nav-link-tag" onMouseEnter={() => toggleVisibilityVideo(!visibleVideo)} onMouseLeave={() => toggleVisibilityVideo(!visibleVideo)}>
           <div className="link-background-element" style={renderVideo}></div>
           <h1 className="navigation-link">VIDEOS</h1>
+        </a>
+        <a href="/statement" className="nav-link-tag" onMouseEnter={() => toggleVisibilityStatement(!visibleStatement)} onMouseLeave={() => toggleVisibilityStatement(!visibleStatement)}>
+          <div className="link-background-element" style={renderStatement}></div>
+          <h1 className="navigation-link">STATEMENTS</h1>
         </a>
         <a href="/documentation" className="nav-link-tag" onMouseEnter={() => toggleVisibilityDocumentation(!visibleDocumentation)} onMouseLeave={() => toggleVisibilityDocumentation(!visibleDocumentation)}>
           <div className="link-background-element" style={renderDocumentation}></div>

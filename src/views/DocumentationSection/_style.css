@@ -4,17 +4,29 @@
   align-items: center;
 }
 
-.timeline {
+.download-area {
   display: flex;
-  flex-direction: column;
-  width: 1200px;
-  margin: 100px 0 40px 0;
+  flex-direction: row;
+  height: 100px;
+  width: fit-content;
 }
 
-.timeline-line {
-  width: 2px;
-  height: 1000vh;
-  background-color: rgb(122, 122, 122);
-  position: fixed;
-  left: 50vw;
+.download-card {
+  box-sizing: border-box;
+  height: 100px;
+  width: 100px;
+  margin: 0 10px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.download-link {
+  height: fit-content;
+  width: fit-content;
+  cursor: pointer;
+}
+
+.download-icon {
+  height: 25px;
+  width: auto;
 }
