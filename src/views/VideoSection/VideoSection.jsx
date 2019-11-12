@@ -23,6 +23,7 @@ function VideoSection() {
           loop
           controls
         />
+        <div className="section-splitter" />
       </section>
     </div>
   );
